@@ -45,6 +45,5 @@ object Lists {
   def max(xs: List[Int]): Int = xs match {
    case Nil =>0
    case x :: ys => max(ys)
-
 }
 }
