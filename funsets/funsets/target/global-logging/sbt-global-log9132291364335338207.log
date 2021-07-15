@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(submit ikebarry2012@mail.com zUKAN39WwUw1RydO, Some(1654eb9e-0be9-4371-873f-1be9a4492e3a), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: submit[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scalafix on 3 Scala sources[0m
+[0m[[0m[0minfo[0m] [0m[0mAttempting to submit "funsets" assignment in "progfun1" course[0m
+[0m[[0m[0minfo[0m] [0m[0mUsing:[0m
+[0m[[0m[0minfo[0m] [0m[0m- email: ikebarry2012@mail.com[0m
+[0m[[0m[0minfo[0m] [0m[0m- submit token: zUKAN39WwUw1RydO[0m
+[0m[[0m[0minfo[0m] [0m[0mConnecting to Coursera...[0m
+[0m[[0m[31merror[0m] [0m[0mSubmission failed.[0m
+[0m[[0m[31merror[0m] [0m[0mThere was something wrong while attempting to submit.[0m
+[0m[[0m[31merror[0m] [0m[0mCoursera says:[0m
+[0m[[0m[31merror[0m] [0m[0mYou used an invalid email or your token may have expired. Please make sure you have entered all fields correctly. Try generating a new token if the issue still persists. (Status 401)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 5 s, completed 26 mars 2021 18:10:30[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,2 @@
+[0m[[0m[0mdebug[0m] [0m[0mSubclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@20e677c), (junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@144f2b0a))[0m
+[0m[[0m[0mdebug[0m] [0m[0mAnnotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@35147f3b), (org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@4450db62), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@292aaf99))[0m

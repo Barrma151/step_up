@@ -1,0 +1,113 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 1.8.0_281)
+[debug]       Load.loadUnit: plugins took 463.070051ms
+[debug]       Load.loadUnit: defsScala took 1.403238ms
+[debug] [Loading] Scanning directory C:\Users\voone\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\voone\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 181.428302 ms
+[debug]           Load.resolveProject(global-plugins) took 413.615592ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\voone\.sbt\1.0\plugins, plugins: List(<none>))) took 711.406815ms
+[debug] [Loading] Done in C:\Users\voone\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 810.524994ms
+[debug]       Load.loadUnit: cleanEvalClasses took 1.318743ms
+[debug]     Load.loadUnit(file:/C:/Users/voone/.sbt/1.0/plugins/, ...) took 1354.658283ms
+[debug]   Load.apply: load took 2512.124148ms
+[debug]   Load.apply: resolveProjects took 47.29551ms
+[debug]   Load.apply: finalTransforms took 324.931279ms
+[debug]   Load.apply: config.delegates took 34.127027ms
+[debug]   Load.apply: Def.make(settings)... took 3874.683837ms
+[debug]   Load.apply: structureIndex took 542.484465ms
+[debug]   Load.apply: mkStreams took 4.854871ms
+[info] loading global plugins from C:\Users\voone\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 19659.550979ms
+[debug]                 Load.loadUnit: plugins took 232.02067ms
+[debug]                 Load.loadUnit: defsScala took 0.010265ms
+[debug] [Loading] Scanning directory C:\work\recfun\recfun\project\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\work\recfun\recfun\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 12.789442 ms
+[debug]                     Load.resolveProject(recfun-build-build) took 8.45812ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id recfun-build-build, base: C:\work\recfun\recfun\project\project, plugins: List(<none>))) took 22.679229ms
+[debug] [Loading] Done in C:\work\recfun\recfun\project\project, returning: (recfun-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 87.48086ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 0.036324ms
+[debug]               Load.loadUnit(file:/C:/work/recfun/recfun/project/project/, ...) took 322.321431ms
+[debug]             Load.apply: load took 327.718013ms
+[debug]             Load.apply: resolveProjects took 0.35614ms
+[debug]             Load.apply: finalTransforms took 130.694583ms
+[debug]             Load.apply: config.delegates took 1.388234ms
+[debug]             Load.apply: Def.make(settings)... took 693.087336ms
+[debug]             Load.apply: structureIndex took 120.618435ms
+[debug]             Load.apply: mkStreams took 0.007107ms
+[info] loading project definition from C:\work\recfun\recfun\project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 2828.381728ms
+[debug]           Load.loadUnit: defsScala took 0.011845ms
+[debug] [Loading] Scanning directory C:\work\recfun\recfun\project
+[debug]             Load.loadUnit: mkEval took 26.387504ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\work\recfun\recfun\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 31.01574 ms
+[info] loading settings for project recfun-build from buildSettings.sbt,plugins.sbt ...
+[debug]               Load.resolveProject(recfun-build) took 9.129337ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id recfun-build, base: C:\work\recfun\recfun\project, plugins: List(<none>))) took 42.026063ms
+[debug] [Loading] Done in C:\work\recfun\recfun\project, returning: (recfun-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 1000.310339ms
+[debug]           Load.loadUnit: cleanEvalClasses took 31.337134ms
+[debug]         Load.loadUnit(file:/C:/work/recfun/recfun/project/, ...) took 3864.197853ms
+[debug]       Load.apply: load took 3891.778543ms
+[debug]       Load.apply: resolveProjects took 0.299284ms
+[debug]       Load.apply: finalTransforms took 222.841584ms
+[debug]       Load.apply: config.delegates took 1.160021ms
+[debug]       Load.apply: Def.make(settings)... took 786.629678ms
+[debug]       Load.apply: structureIndex took 101.975983ms
+[debug]       Load.apply: mkStreams took 0.007107ms
+[info] loading project definition from C:\work\recfun\recfun\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 12380.852319ms
+[debug]     Load.loadUnit: defsScala took 0.010266ms
+[debug] [Loading] Scanning directory C:\work\recfun\recfun
+[debug]       Load.loadUnit: mkEval took 4.081788ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\work\recfun\recfun, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(ch.epfl.lamp.StudentTasks), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(scalafix.sbt.ScalafixPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(scalafix.sbt.ScalafixTestkitPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(ch.epfl.lamp.MOOCSettings),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(ch.epfl.lamp.StudentTasks),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(ch.epfl.lamp.StudentTasks),Set(Atom(ch.epfl.lamp.MOOCSettings))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scalafix.sbt.ScalafixPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,ch.epfl.lamp.StudentTasks,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,ch.epfl.lamp.MOOCSettings,sbt.plugins.JvmPlugin,scalafix.sbt.ScalafixPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 162.250455 ms
+[info] loading settings for project recfun from assignment.sbt,build.sbt ...
+[debug]         Load.resolveProject(recfun) took 23671.579184ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id recfun, base: C:\work\recfun\recfun, plugins: List(<none>))) took 23848.30502ms
+[debug] [Loading] Done in C:\work\recfun\recfun, returning: (recfun)
+[debug]     Load.loadUnit: loadedProjectsRaw took 32356.18155ms
+[debug]     Load.loadUnit: cleanEvalClasses took 34.295226ms
+[debug]   Load.loadUnit(file:/C:/work/recfun/recfun/, ...) took 44775.599614ms
+[debug] Load.apply: load took 44783.752133ms
+[debug] Load.apply: resolveProjects took 0.272435ms
+[debug] Load.apply: finalTransforms took 107.423104ms
+[debug] Load.apply: config.delegates took 0.880478ms
+[debug] Load.apply: Def.make(settings)... took 859.596465ms
+[debug] Load.apply: structureIndex took 1025.469911ms
+[debug] Load.apply: mkStreams took 0.007107ms
+[info] set current project to progfun1-recfun (in build file:/C:/work/recfun/recfun/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[error] server failed to start on local:sbt-server-474d3ec4f7ddcb2f52d7. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-474d3ec4f7ddcb2f52d7_lock, error 5
