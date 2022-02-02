@@ -6,6 +6,7 @@
 .project
 .metadata
 .gradle
+.csv
 bin/
 tmp/
 target/*
