@@ -25,7 +25,7 @@ trait FunSets extends FunSetsInterface {
    * Returns the union of the two given sets,
    * the sets of all elements that are in either `s` or `t`.
    */
-  def union(s: FunSet, t: FunSet): FunSet = (a: Int ) => contains(s,a)|| contains(t,a)
+  def union(s: FunSet, t: FunSet): FunSet = (b: Int ) => contains(s,b)|| contains(t,b)
 
   /**
    * Returns the intersection of the two given sets,
@@ -78,7 +78,7 @@ trait FunSets extends FunSetsInterface {
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
    */
-  def map(s: FunSet, f: Int => Int): FunSet ={ (a : Int) => exists(s, { b: Int => f(b)== a }) }
+  def map(s: FunSet, f: Int => Int): FunSet ={ (c : Int) => exists(s, { b: Int => f(b)== c }) }
 
   /**
    * Displays the contents of a set
